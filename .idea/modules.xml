@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbstractionEtInterface/AbstractionEtInterface.iml" filepath="$PROJECT_DIR$/AbstractionEtInterface/AbstractionEtInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AbstractionEtInterfaceExercice/AbstractionEtInterfaceExercice.iml" filepath="$PROJECT_DIR$/AbstractionEtInterfaceExercice/AbstractionEtInterfaceExercice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection_Java/Collection_Java.iml" filepath="$PROJECT_DIR$/Collection_Java/Collection_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/HeritageEtPolymorphisme/HeritageEtPolymorphisme.iml" filepath="$PROJECT_DIR$/HeritageEtPolymorphisme/HeritageEtPolymorphisme.iml" />
       <module fileurl="file://$PROJECT_DIR$/Les_4_BasesPOO/Les_4_BasesPOO.iml" filepath="$PROJECT_DIR$/Les_4_BasesPOO/Les_4_BasesPOO.iml" />
       <module fileurl="file://$PROJECT_DIR$/Poo-Java.iml" filepath="$PROJECT_DIR$/Poo-Java.iml" />

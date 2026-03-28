@@ -50,7 +50,7 @@ public class Main {
         for(Etudiant etude : etudiants){
             System.out.println("Nom: " + etude.getNom()+", Age: "+etude.getAge());
         }
-
+        System.out.println("------------La liste des noms a supprimer les doublons.-------------");
         //  Liste des noms a supprimer les doubles
         ArrayList<String> liste_noms = new ArrayList<>();
         liste_noms.add("Ali");
@@ -61,12 +61,37 @@ public class Main {
                 .distinct()
                 .toList();
         liste_sans_doublons.forEach(nom ->System.out.println(nom));
+        System.out.println("------------La liste des entiers.-------------");
         // le trie d'une liste d'entier
         List<Integer> liste_entier = List.of(1,4,6,75,5,3);
         List<Integer> liste_trie = liste_entier.stream()
                 .sorted()
                 .toList();
         liste_trie.forEach(entier -> System.out.println(entier));
+        System.out.println("------------La liste des donnees  a traiter.-------------");
+        // Liste de donne
+        List<String> lnoms = List.of("Ali","Sara","Ali","Moussa","Amina");
+        lnoms.stream()
+                .filter(e ->e.startsWith("A"))
+                .distinct()
+                .sorted()
+                .map(e ->e.toUpperCase())
+                .forEach(System.out::println);
+        System.out.println("------------La liste des etudiants.-------------");
+        List<Etudiant> etudiantes = List.of(
+                new Etudiant("Ali",19),
+                new Etudiant("Sara", 25),
+                new Etudiant("Moussa", 22),
+                new Etudiant("Amina",18)
+        );
+        etudiantes.stream()
+                .filter(e -> e.getAge() > 20)
+                .map(nom ->nom.getNom())
+                .sorted()
+                .forEach(System.out::println);
+
+
+
 
 
 

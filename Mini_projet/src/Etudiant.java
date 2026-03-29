@@ -24,7 +24,7 @@ public class Etudiant extends Personne{
     // la redefinition de la methode de sePresenter
     @Override
     public void sePresenter(){
-        System.out.println("Je me présente au nom de " + getNom() +" matricule"+ matricule + " agé de " + getAge() + " ans avec une moyenne de " + moyenne );
+        System.out.println("Je me présente au nom de " + getNom() +" matricule "+ matricule + " agé de " + getAge() + " ans avec une moyenne de " + moyenne );
 
     }
     public boolean estAdmis(){

@@ -15,7 +15,7 @@ public class EtudiantBoursier extends Etudiant{
     }
     // la methode sePresenter
     public void sePresenter(){
-        System.out.println("Je me présente au nom de " + getNom() +" matricule"+ getMatricule() + " agé de " + getAge() + " ans avec une moyenne de " + getMoyenne() + "est boursier avec une somme mensuelle " + montantBourse );
+        System.out.println("Je me présente au nom de " + getNom() +" matricule "+ getMatricule() + " agé de " + getAge() + " ans avec une moyenne de " + getMoyenne() + " est boursier avec une somme mensuelle " + montantBourse );
     }
 
 }
